@@ -33,4 +33,4 @@ yarn docker:build
 
 ## 获取订阅链接
 
-访问 `http://localhost:3000` 获取合并后的订阅链接
+访问 `http://localhost:3333` 获取合并后的订阅链接
