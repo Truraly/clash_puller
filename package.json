@@ -1,0 +1,22 @@
+{
+  "name": "clash_puller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.1",
+    "js-yaml": "^4.1.0",
+    "log4js": "^6.9.1",
+    "md5": "^2.3.0",
+    "node-schedule": "^2.1.1"
+  },
+  "scripts": {
+    "dev": "node index.js",
+    "start": "npm i &&  node index.js",
+    "docker": "npm i && docker build -t clash_puller . && docker run -d -p 3333:3333 --name clash_puller clash_puller",
+    "docker:build": "npm i && docker build -t clash_puller . && docker save -o  clash_puller.tar clash_puller"
+  },
+  "author": "Truraly",
+  "license": "MIT",
+  "description": ""
+}

@@ -1,0 +1,16 @@
+# .npmignore
+
+/node_modules
+/package-lock.json
+/.gitignore # 注意.gitignore里要把这行删掉
+/index.ts
+/tsconfig.json
+/src
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+*dist/
+*log/
+.VSCodeCounter
+*.tar
+/data
+config.yml
